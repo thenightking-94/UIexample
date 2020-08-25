@@ -1,0 +1,181 @@
+@media only screen and (max-width:760px)
+{
+    .title1{
+        width:94% !important;
+       
+    }
+    .icon_home1
+    {
+        height:125px;
+        width:125px;
+    }
+
+    
+
+    .icon_home2
+    {
+        height:130px;
+        width:130px;
+    }
+    #choose
+     {
+    width:94%;
+    height:540px;
+    
+    }
+
+    #settings_icon
+    {
+        top:75%;
+
+    }
+    #settings_icon_side
+    {
+        top:580px;
+        right:44%
+
+    }
+
+    #settings_panel
+    {
+        right:32%;
+        
+        height:100px;
+        width:120px;
+
+    }
+
+    #settings_panel a
+    {
+        font-size: 17px !important;
+
+    }
+    #settings_panel_side
+    {
+        right:32%;
+        
+        height:100px;
+        width:120px;
+
+    }
+
+    #settings_panel_side a
+    {
+        font-size: 17px !important;
+
+    }
+
+
+/*second screen*/
+    
+    #choose_side
+    {
+        margin-left:2px;
+        margin-top:30px;
+        height:605px;
+        width:94%;
+
+    }
+
+    #mobile_adjustments
+    {
+        margin-left:-15px;
+    }
+
+    #buttonSelectmobile
+    {
+        display:none;
+    }
+    #catch_space
+    {
+        padding-left:10px;
+        margin-top:30px;
+    }
+    .cross_player
+    {
+        height:140px;
+        width:140px;
+    }
+    .circle_player
+     {
+    height:140px;
+    width:140px;
+    }
+
+    #Select_button
+    {
+        margin-left:10px;
+        margin-top:50px;
+        width:110px;
+        height:25px;
+        opacity:1;
+
+    }
+
+    /*third screen*/
+
+    #main_game_section
+    {
+        height:635px;
+       margin-left:-10px;
+        width:93%;
+
+    }
+    #game_frame
+    {
+        margin-top:-40px;
+    }
+    #score_board
+    {
+        margin-left:-20px;
+    }
+    .score_text
+    {
+        margin-left:75px;
+    }
+
+    #TtT
+    {
+        padding-left:25px;
+        padding-top:80px;
+    }
+   
+    
+
+.simulate
+{
+    height:95px;
+    width:95px;
+    
+}
+
+ #cell_img_white1,#cell_img_white2,#cell_img_white3,#cell_img_white4,#cell_img_white5,#cell_img_white6,#cell_img_white7,#cell_img_white8,#cell_img_white9
+  {
+          width:70px;
+          height:70px;
+  }
+  #cell_img_cross1, #cell_img_cross2, #cell_img_cross3, #cell_img_cross4, #cell_img_cross5, #cell_img_cross6, #cell_img_cross7, #cell_img_cross8, #cell_img_cross9
+  {
+          display:none;
+          width:70px;
+          height:70px;
+  }
+  #cell_img_circle1,#cell_img_circle2,#cell_img_circle3,#cell_img_circle4,#cell_img_circle5,#cell_img_circle6,#cell_img_circle7,#cell_img_circle8,#cell_img_circle9
+  {
+          display:none;
+          width:70px;
+          height:70px;
+  }
+
+  #msgscrn
+  {
+      right:20%
+  }
+
+
+
+}
+
+
+
+

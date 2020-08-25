@@ -1,0 +1,178 @@
+.icon_home1
+{
+    -webkit-animation: scale-in-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: scale-in-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+.icon_home2
+{
+    -webkit-animation: scale-in-top 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: scale-in-top 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@-webkit-keyframes scale-in-top {
+    0% {
+      -webkit-transform: scale(0);
+              transform: scale(0);
+      -webkit-transform-origin: 50% 0%;
+              transform-origin: 50% 0%;
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: 50% 0%;
+              transform-origin: 50% 0%;
+      opacity: 1;
+    }
+  }
+  @keyframes scale-in-top {
+    0% {
+      -webkit-transform: scale(0);
+              transform: scale(0);
+      -webkit-transform-origin: 50% 0%;
+              transform-origin: 50% 0%;
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: 50% 0%;
+              transform-origin: 50% 0%;
+      opacity: 1;
+    }
+  }
+  
+  #cell_img_white1,#cell_img_white2,#cell_img_white3,#cell_img_white4,#cell_img_white5,#cell_img_white6,#cell_img_white7,#cell_img_white8,#cell_img_white9
+  {
+          width:100px;
+          height:100px;
+  }
+  #cell_img_cross1, #cell_img_cross2, #cell_img_cross3, #cell_img_cross4, #cell_img_cross5, #cell_img_cross6, #cell_img_cross7, #cell_img_cross8, #cell_img_cross9
+  {
+          display:none;
+          width:90px;
+          height:90px;
+  }
+  #cell_img_circle1,#cell_img_circle2,#cell_img_circle3,#cell_img_circle4,#cell_img_circle5,#cell_img_circle6,#cell_img_circle7,#cell_img_circle8,#cell_img_circle9
+  {
+          display:none;
+          width:100px;
+          height:100px;
+  }
+  .simulate
+  {
+          text-align: center;
+          height:120px;
+          width:120px;
+          
+  }
+
+  #settings_icon
+  {
+          z-index:10;
+         box-shadow: 5px 10px 8px #888888;
+          position:fixed;
+          top:30%;
+          right:5%;
+          border-radius:15px;
+          
+  }
+  #settings_panel
+  {
+          z-index:10;
+        box-shadow: 5px 10px 8px #888888;
+          top:38%;
+          right:2%;
+          height:80px;
+          border-right:4px solid #e88d14;
+          border-left:4px solid #ad1b06;
+          display:none;
+          width:100px;
+          position:fixed;
+          background: black;
+          border-radius: 8px;
+          color:white;
+          text-align:center;
+  }
+
+  #spin_off{
+
+        animation-name: spin;
+        animation-duration: 1500ms;
+        border-radius:15px;
+        cursor:pointer;
+        height:35px;
+        width:39px;
+
+  }
+
+  #spin_on
+  {
+       display:none;
+          border-radius:15px;
+          cursor:pointer;
+          height:35px;
+          width:39px;
+          animation-name: spin;
+          animation-duration: 1500ms;
+  }
+
+
+@keyframes spin {
+        from {
+            transform:rotate(0deg);
+        }
+        to {
+            transform:rotate(360deg);
+        }
+    }
+
+
+    #settings_icon_side
+    {
+            z-index:10;
+           box-shadow: 5px 10px 8px #888888;
+            position:fixed;
+            top:30%;
+            right:5%;
+            border-radius:15px;
+            
+    }
+    #settings_panel_side
+  {
+          z-index:10;
+        box-shadow: 5px 10px 8px #888888;
+          top:38%;
+          right:2%;
+          height:80px;
+          border-right:4px solid #e88d14;
+          border-left:4px solid #ad1b06;
+          display:none;
+          width:100px;
+          position:fixed;
+          background: black;
+          border-radius: 8px;
+          color:white;
+          text-align:center;
+  }
+
+  #spin_off_side{
+
+        animation-name: spin;
+        animation-duration: 1500ms;
+        border-radius:15px;
+        cursor:pointer;
+        height:35px;
+        width:39px;
+
+  }
+
+  #spin_on_side
+  {
+       display:none;
+          border-radius:15px;
+          cursor:pointer;
+          height:35px;
+          width:39px;
+          animation-name: spin;
+          animation-duration: 1500ms;
+  }
